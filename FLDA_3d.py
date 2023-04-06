@@ -143,9 +143,6 @@ class FLDA_3d_complete:
         print ("Eta:", eta)
         assert (eta*dd[-1] < 1)
 
-        #pandas2ri.activate()
-        #rifle = rpackages.importr('rifle')
-
         svs = []
         for i in range(3):
             svs.append(rifle(Ts[i], D, inits[i], ks[i], eta = eta, convergence = 0.001, maxiter = 5000))
