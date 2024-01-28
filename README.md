@@ -2,7 +2,7 @@
 FLDA for "Evolution of Neuronal Cell Classes and Types in the Vertebrate Retina"
 
 ## Overview
-This repository contains Python code for implementing a three-dimensional factorized linear discriminant analysis (FLDA) algorithm, as described in a research paper (citations to be added later). The code utilizes Numpy and scikit-learn libraries.
+This repository contains Python code for implementing a three-dimensional factorized linear discriminant analysis (FLDA) algorithm, as described in a research paper (Hahn, J., Monavarfeshani, A., Qiao, M. et al. Evolution of neuronal cell classes and types in the vertebrate retina. Nature 624, 415–424 (2023). https://doi.org/10.1038/s41586-023-06638-9). The code utilizes Numpy and scikit-learn libraries.
 
 ## FLDA_3d_complete Class
 The FLDA_3d_complete class includes the following methods:
